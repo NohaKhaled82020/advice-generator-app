@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="card">
+    <p>ADVICE # {{ advice.id }}</p>
+    <q>
+      {{ advice.advice }}
+    </q>
+    <div class="card__seperator">
+      <img src="assets/images/pattern-divider-desktop.svg" alt="" />
+    </div>
+    <div class="card__button">
+      <button class="btn btn-icon btn-primary" (click)="getAdvice()">
+        <img src="assets/images/icon-dice.svg" />
+      </button>
+    </div>
+  </div>
+</div>

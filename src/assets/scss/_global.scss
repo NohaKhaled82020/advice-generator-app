@@ -32,17 +32,3 @@ select {
     flex: 1;
   }
 }
-
-.spinner {
-  -webkit-animation: spiner 1.4s linear infinite;
-  animation: spiner 1.4s linear infinite;
-}
-
-@keyframes spiner {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(270deg);
-  }
-}

@@ -1,15 +1,19 @@
 <div class="container">
   <div class="card">
     <p>ADVICE # {{ advice.id }}</p>
-    <q>
+    <h1>
       {{ advice.advice }}
-    </q>
+    </h1>
     <div class="card__seperator">
       <img src="assets/images/pattern-divider-desktop.svg" alt="" />
     </div>
     <div class="card__button">
-      <button class="btn btn-icon btn-primary" (click)="getAdvice()">
-        <img src="assets/images/icon-dice.svg" />
+      <button
+        aria-label="advice"
+        class="btn btn-icon btn-primary"
+        (click)="getAdvice()"
+      >
+        <img src="assets/images/icon-dice.svg" alt="dice icon" />
       </button>
     </div>
   </div>

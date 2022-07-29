@@ -1,4 +1,8 @@
-/* Importing Bootstrap SCSS file. */
+@font-face {
+  font-family: "Manrope";
+  font-weight: 800;
+  src: url("./assets/fonts/Manrope-ExtraBold.ttf");
+}
 @import "~bootstrap/scss/bootstrap";
 
 @import "assets/scss/variables";
